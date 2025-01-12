@@ -135,6 +135,10 @@ the time task, 100 words for the LCD task, and 50 words for the alarm task.
 
 ![Circuit Diagram of the Alarm Clock](circuit_diagram.png)  
 
+## Video Demo
+
+![Demo Video](demo.mp4)
+
 ## Limitations/Potential Next Steps
 
 While this project was a success, there are a few potential drawbacks to the 
