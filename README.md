@@ -137,7 +137,7 @@ the time task, 100 words for the LCD task, and 50 words for the alarm task.
 
 ## Demo Video
 
-![Demo Video](https://youtu.be/dp4kvePA2nc)
+[Demo Video](https://youtu.be/dp4kvePA2nc)
 
 ## Limitations/Potential Next Steps
 
