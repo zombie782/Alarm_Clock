@@ -47,6 +47,8 @@
 #include "driverlib/rom.h"
 #include "driverlib/rom_map.h"
 #include "driverlib/timer.h"
+#include "driverlib/flash.h"
+#include "driverlib/interrupt.h"
 #include "utils/lwiplib.h"
 #include "priorities.h"
 /*-----------------------------------------------------------*/
