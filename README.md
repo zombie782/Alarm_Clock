@@ -135,9 +135,9 @@ the time task, 100 words for the LCD task, and 50 words for the alarm task.
 
 ![Circuit Diagram of the Alarm Clock](circuit_diagram.png)  
 
-## Video Demo
+## Demo Video
 
-![Video Demo](https://youtu.be/dp4kvePA2nc)
+![Demo Video](https://youtu.be/dp4kvePA2nc)
 
 ## Limitations/Potential Next Steps
 
