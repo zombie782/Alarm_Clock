@@ -1,6 +1,4 @@
 /*
- * enet_io
- *
  * Copyright (C) 2022 Texas Instruments Incorporated
  *
  *
