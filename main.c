@@ -34,59 +34,6 @@
  *
 */
 
-/******************************************************************************
- *
- * This example application demonstrates the operation of the Tiva
- * Ethernet controller using the lwIP TCP/IP Stack.  DHCP is used to obtain
- * an Ethernet address.  If DHCP times out without obtaining an address,
- * AutoIP will be used to obtain a link-local address.  The address that is
- * selected will be shown on the UART.
- *
- * UART0, connected to the ICDI virtual COM port and running at 115,200,
- * 8-N-1, is used to display messages from this application. Use the
- * following command to re-build the any file system files that change.
- *
- *     ../../../../tools/bin/makefsfile -i fs -o io_fsdata.h -r -h -q
- *
- * FreeRTOS is used to perform a variety of tasks in a concurrent fashion.
- * The following tasks are created:
- * * An Ethernet task to manage the Ethernet interface and its interrupt.
- * * A TCP/IP task to run the lwIP stack and manage all the TCP/IP packets.
- *   This task works very closely with the Ethernet task to server web pages,
- *   handle Telnet packets and Locator app packets.  Ethernet and TCP/IP tasks
- *   are managed by lwIP.
- * * An idle task (automatically created by FreeRTOS) that manages changes to
- *   the IP address and sends this information to the user via Debug UART.
- *
- * To build this application, install TivaWare for C Series v2.2.0.295
- * and copy the "enet_lwip_freertos" application folder into the EK-TM4C1294XL
- * board's folder at <TivaWare_Install_Folder>/examples/boards/ek-tm4c1294xl.
- *
- * The IP address and other debug messages are displayed on the Debug UART.
- * UART0, connected to the ICDI virtual COM port, is used as the Debug UART.
- * 115,200 baud with 8-N-1 settings is used to display debug messages from
- * this application.
- *
- * The finder application (in ../../../../tools/bin/) can also be used to
- * discover the IP address of the board.  The finder application will search
- * the network for all boards that respond to its requests and display
- * information about them.
- *
- * To access the webserver, enter the IP address in a web browser.
- *
- * The following command
- * can be used to re-build any file system files that change.
- *
- *   ../../../../tools/bin/makefsfile -i fs -o io_fsdata.h -r -h -q
- *
- * For additional details on FreeRTOS, refer to the FreeRTOS web page at:
- * http://www.freertos.org/
- *
- * For additional details on lwIP, refer to the lwIP web page at:
- * http://savannah.nongnu.org/projects/lwip/
- *
- */
-
 /* Standard includes. */
 #include <stdio.h>
 #include <stdbool.h>
