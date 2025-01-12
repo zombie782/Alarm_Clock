@@ -1,8 +1,5 @@
-*
+*.cmd
 
-!.gitignore
-!*.c
-!*.h
-!README.md
-!*.png
-!*.jpg
+/Debug
+
+/targetConfigs
